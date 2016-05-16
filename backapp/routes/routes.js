@@ -10,7 +10,6 @@ var oauth2Client = new OAuth2(adata.googleAuth.clientID, adata.googleAuth.client
 
 // generate a url that asks permissions for Google+ and Google Calendar scopes
 var scopes = [
-  'https://www.googleapis.com/auth/plus.me',
   'https://www.googleapis.com/auth/calendar'
 ];
 
