@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One|Bangers);
+h1 {
+  font-family: 'Paytone One';
+  color: orange;
+  padding: 2% 0 20px 0;
+  font-size: 55px;
+  text-align: center; }
+
+h2 {
+  font-size: 20px; }
+
+body {
+  display: block;
+  overflow: auto;
+  background: #575550;
+  color: white; }
+
+.content {
+  color: black;
+  position: relative;
+  background: white;
+  padding: 10px 8% 10px 8%;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center; }
+  .content .btn {
+    margin: 30px 0 20px 0; }
+
+.wrapper {
+  min-height: 100%; }
+
+.content2 {
+  color: black;
+  position: relative;
+  background: white;
+  padding: 10px 8% 20px 8%;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 100px; }
+  .content2 h4 {
+    font-size: 20px;
+    font-weight: bold; }
+  .content2 .btn {
+    margin: 0 0 20px 0; }
+
+#asd {
+  background-color: blue;
+  height: 500px;
+  width: 50%;
+  margin: 0 auto; }
+
+footer {
+  position: absolute;
+  font-size: 18px;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }

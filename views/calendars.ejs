@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Planilla Web</title>
+    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+</head>
+<body>
+	<!-- Coloca elementos React -->
+	<!-- div id="searchableTable"></div -->
+    <div class="wrapper">
+    <h1>Exam Prep Cicle App</h1>
+
+    <div class="content2">
+        <form id="data_cal" method="post" action="/cal">
+        <h4>Step 1: Choose the calendar, where you have the exams</h4>
+            <% cal.forEach(function(calendar) { %>
+            <input type="radio" name="examcal" value='<%= calendar.summary %>'><%= calendar.summary %></input><br>
+                <% }); %>
+        <br>
+        <h4>Step 2: Select a name for the Exam Prep Cycle calendar</h4>
+        <input name="calname" type="text" value="Exam Prep Cycle">
+        <br>
+        <h4 style="margin-top: 25px;">Step 3: You're done! Click Submit</h4>
+        <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+    </div>
+
+    <footer style="position: relative;">App by: <a href="http://www.acifuentes.cl">Andrés Cifuentes</a>
+        <br>
+        <span>Based on the <a href="http://collegeinfogeek.com/exam-prep-cycle/">"Exam Preparation Cicle"</a> article by <a href="http://www.wtfprofessor.com/">Tom Miller</a> in <a href="http://www,collegeinfogeek.com/">CollegeInfoGeek</span>
+    
+    </footer>
+    </div>
+	<!-- one script to rule them all (in production) -->
+	<script src="public/js/jquery-2.2.3.min.js"></script>
+	<script src="public/js/bootstrap.min.js"></script>
+	<script src="public/js/vendors.js"></script>
+	<script src="public/js/bundle.js"></script>
+</body>
+</html>
