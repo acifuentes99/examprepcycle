@@ -1,7 +1,7 @@
 module.exports = {
     'googleAuth':{
-        'clientID'      : '286244984750-aghdrvsa365bgo8rgm6rn4je245e08je.apps.googleusercontent.com',
-        'clientSecret': 'cJkSTpx3_tT_ywidIgD8gvfV',
+        'clientID'      : '286244984750-4189cm2noo9ukebvk12960a8i7c1i87o.apps.googleusercontent.com ',
+        'clientSecret': 'C4ku1GTgtk2a32FBtBCAi1mu',
         'callbackURL'   : 'https://examprepcycle.herokuapp.com/authcallback'
     }
 }
