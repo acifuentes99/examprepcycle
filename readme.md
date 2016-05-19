@@ -23,8 +23,9 @@ For now, you can download the source code (here), and run nodejs. See instructio
 
 #### Installing Locally
 
-* Install NodeJs in your computer
+* Install NodeJs and NPM in your computer
 * Open a Terminal. Go to the code directory
+* Run "npm install", to install all the requiered node modules
 * Run "node server.js"
 * Go to "localhost:8080" in your web browser
 
