@@ -30,6 +30,7 @@ module.exports = function (app) {
 
     app.route('/cal')
     .get(function(req, res) {
+            console.log('authenitfied!');
         res.render('calendars.ejs', { gurl: url, cal: calendars });
     })
     .post(function(req, res){

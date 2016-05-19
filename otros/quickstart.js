@@ -373,15 +373,12 @@ var _6days = 6*24*60*60*1000;
 var _5days = 5*24*60*60*1000;
 var _2days = 2*24*60*60*1000;
 
-
- Date.prototype.yyyymmdd = function() {
+Date.prototype.yyyymmdd = function() {
    var yyyy = this.getFullYear().toString();
    var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based
    var dd  = this.getDate().toString();
    return yyyy +'-'+ (mm[1]?mm:"0"+mm[0]) +'-'+ (dd[1]?dd:"0"+dd[0]); // padding
-  };
-  
-
+};
 
 function ISODateString(d){
  function pad(n){return n<10 ? '0'+n : n}
